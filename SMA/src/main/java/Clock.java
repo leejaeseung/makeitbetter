@@ -1,4 +1,4 @@
-public class Clock implements Runnable {
+public class Clock implements Runnable{
     private int sec;
 
     public Clock(int sec) {
@@ -12,7 +12,6 @@ public class Clock implements Runnable {
             try{
                 Thread.sleep(1000);
             }catch(Exception ex){}
-
         }
     }
 

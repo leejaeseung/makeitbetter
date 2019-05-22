@@ -29,11 +29,11 @@ public class Time extends Frame{
 
         Clock dis=new Clock(sec);
 
-
         while(true)
         {
             this.sec = dis.get();
             display();
+            System.out.println(this.sec);
             try{
                 Thread.sleep(1000);
             }catch(Exception ex){}

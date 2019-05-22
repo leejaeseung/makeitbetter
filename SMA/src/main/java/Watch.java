@@ -1,6 +1,6 @@
 
 public class Watch{
     public static void main(String[] args){
-        new Time();
+        GUI g=new GUI();
     }
 }
