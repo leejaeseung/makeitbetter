@@ -1,11 +1,15 @@
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 import javax.swing.*;
 
 public class GUI extends JFrame{
     private String md="a",d3="b";                   // md=모드이름, d3=요일
     private int tm1=0,tm2=0,tm3=0,d1=0,d2=0;          // tm1=왼쪽 숫자,tm2=중간 숫자,tm3=오른쪽숫자,d1=월,d2=일
+    public long btn_press=0,btn_release=0;
+    public long btn_time=0;
 
     private JButton ok=new JButton("OK");
     private JButton menu=new JButton("MENU");
@@ -22,25 +26,53 @@ public class GUI extends JFrame{
         setLabel();
         setButton();
 
-
     }
-    private class MyActionListener implements ActionListener {
+    private class MyActionListener implements ActionListener, MouseListener {
+
+        public void mouseClicked(MouseEvent e){
+        }
+        public void mousePressed(MouseEvent e) {
+            if(e.isMetaDown()){
+
+            }
+            else
+            {
+                btn_press=System.currentTimeMillis();
+                System.out.println(btn_time);
+            }
+        }
+        public void mouseReleased(MouseEvent e) {
+            if(e.isMetaDown()){
+
+            }
+            else
+            {
+                btn_release=System.currentTimeMillis();
+                btn_time=btn_release-btn_press;
+                System.out.println(btn_time);
+            }
+        }
+        public void mouseEntered(MouseEvent e) {
+        }
+        public void mouseExited(MouseEvent e) {
+        }
 
         public void actionPerformed(ActionEvent e) {
             JButton b = (JButton)e.getSource();
 
             if(b.getText().equals("UP")) {
-                System.out.println("UPUPUPUP");
-            }
-            else if(b.getText().equals("DOWN")) {
 
             }
-            else if(b.getText().equals("OK")){
+            if(b.getText().equals("DOWN")) {
 
             }
-            else if(b.getText().equals("MENU")){
+            if(b.getText().equals("OK")){
 
             }
+            if(b.getText().equals("MENU")){
+
+            }
+
         }
     }
     private void setButton(){
@@ -50,6 +82,10 @@ public class GUI extends JFrame{
         this.menu.addActionListener(listener);
         this.up.addActionListener(listener);
         this.down.addActionListener(listener);
+        this.ok.addMouseListener(listener);
+        this.menu.addMouseListener(listener);
+        this.up.addMouseListener(listener);
+        this.down.addMouseListener(listener);
 
         this.ok.setSize(80,80);
         this.ok.setLocation(0,0);
