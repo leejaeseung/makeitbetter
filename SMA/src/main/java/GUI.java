@@ -20,7 +20,10 @@ public class GUI extends JFrame{
     private JLabel time=new JLabel();
     private JLabel day=new JLabel();
 
+    private Control ctr=new Control();
+
     public GUI(){
+
 
         setLayout();
         setLabel();
@@ -38,7 +41,6 @@ public class GUI extends JFrame{
             else
             {
                 btn_press=System.currentTimeMillis();
-                System.out.println(btn_time);
             }
         }
         public void mouseReleased(MouseEvent e) {
@@ -49,7 +51,6 @@ public class GUI extends JFrame{
             {
                 btn_release=System.currentTimeMillis();
                 btn_time=btn_release-btn_press;
-                System.out.println(btn_time);
             }
         }
         public void mouseEntered(MouseEvent e) {
@@ -60,19 +61,27 @@ public class GUI extends JFrame{
         public void actionPerformed(ActionEvent e) {
             JButton b = (JButton)e.getSource();
 
-            if(b.getText().equals("UP")) {
 
+            if(b.getText().equals("UP")) {
+                ctr.Up_btn();
             }
             if(b.getText().equals("DOWN")) {
-
+                ctr.Down_btn();
             }
-            if(b.getText().equals("OK")){
-
+            if(b.getText().equals("OK")&&btn_time>=2)
+            {
+                ctr.OK_2sec();
             }
-            if(b.getText().equals("MENU")){
-
+            else if(b.getText().equals("OK")){
+                ctr.OK_btn();
             }
-
+            if(b.getText().equals("MENU")&&btn_time>=2)
+            {
+                ctr.Menu_2sec();
+            }
+            else if(b.getText().equals("MENU")){
+                ctr.Menu_btn();
+            }
         }
     }
     private void setButton(){
