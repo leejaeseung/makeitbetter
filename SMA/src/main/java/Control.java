@@ -10,7 +10,7 @@ public class Control {
         sw.stopSW();
     }
     public void Down_btn(){
-        sw.stopSW();
+
     }
     public void OK_btn(){
 

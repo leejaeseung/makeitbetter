@@ -6,13 +6,14 @@ public class StopWatch implements Runnable{
     private Clock clk;
 
     public StopWatch(){
-
+        this.isrun=true;
     }
     public void startSW(){
         new Thread(this).start();
     }
     public void run(){
-        Clock clk=new Clock(this.sec);
+        this.isrun=true;
+        this.clk=new Clock(this.sec);
         while(true){
             this.sec = clk.get();
             System.out.println(this.sec);
@@ -22,9 +23,13 @@ public class StopWatch implements Runnable{
         }
     }
     public void stopSW(){
-
+        this.isrun=false;
+        this.clk=null;
     }
     public void resetSW(){
 
+    }
+    public boolean getIsrun(){
+        return this.isrun;
     }
 }
