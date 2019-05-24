@@ -1,7 +1,7 @@
 public class StopWatch implements Runnable{
     private int min;
     private int sec;
-    private int mes;
+    private int m;
 
     public StopWatch(){
 
