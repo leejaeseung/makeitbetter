@@ -4,10 +4,13 @@ public class Control {
 
     }
     public void Up_btn(){
+        if(sw.getIsrun()==true)
         sw.startSW();
+        else
+        sw.stopSW();
     }
     public void Down_btn(){
-
+        sw.stopSW();
     }
     public void OK_btn(){
 
