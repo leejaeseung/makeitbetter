@@ -6,17 +6,19 @@ public class Select_Menu extends GUI {
 
 
     public static void main(String[] args) {
-        Select_Menu watch = new Select_Menu();
-        watch.checkMenu(0); // 메뉴 4개를 고른다
+        //Select_Menu watch = new Select_Menu();
+        //watch.checkMenu(0); // 메뉴 4개를 고른다
+
+        new GUI();
     }
-    private Select_Menu(){
+    /*private Select_Menu(){
         change_mode = new Change_Mode();
     }
     private void checkMenu(int n) {
         int check,count=0;
         change_mode.changeSet();
         for(;count<4;) {
-            check = GUI_selectNenu(n);
+            check = GUI_selectMenu(n);
             if (check == 0) {
                 change_mode.startMenu(n);
                 count++;
@@ -31,5 +33,5 @@ public class Select_Menu extends GUI {
     }
     private int preMenu(int n){
         return (n+5)%6;
-    }
+    }*/
 }

@@ -1,10 +1,11 @@
 package Function;
+import GUI.*;
 
 import System_Support.Random_Number_Generator;
-public class Dice implements GUI{
+public class Dice extends GUI{
 
     private int diceNum;
-    private int randomNumber
+    private int randomNumber;
     Random_Number_Generator random;
 
     public Dice()
@@ -40,8 +41,8 @@ public class Dice implements GUI{
         return diceNum;
     }
 
-    public int rollDice()
+    public void rollDice()
     {
-        randomnumber = random.getRandom();
+        randomNumber = random.getRandom();
     }
 }

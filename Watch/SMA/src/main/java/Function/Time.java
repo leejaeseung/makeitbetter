@@ -22,8 +22,8 @@ public class Time extends  GUI{
     }
     public void run(){
         int check;
-        check=time(system_clock);
-        if(check==0)enterSetMode();
+       // check=time(system_clock);
+      //  if(check==0)enterSetMode();
     }
     public void enterSetMode(){
 
