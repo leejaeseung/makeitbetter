@@ -1,4 +1,4 @@
-/*package Function;
+package Function;
 
 import GUI.GUI;
 import System_Support.Buzzer;
@@ -18,19 +18,30 @@ public class RR extends GUI
     }
 
     public void run(){
-        for(;;) {
-            int check = GUI_RR();
-            if (check == 0) setRR();
-            else if (check == 1) playRR();
-            else break;
+        while(true) {
+            int check = GUI_btn();
+            display(5,0,0,ratio,1,1,8);
+                if (check == 5) setRR();
+                else if (check == 3) playRR();
+                else if(check==4||check==6)
+                    break;
+            try {
+                Thread.sleep(1000);
+            }catch(InterruptedException e){}
         }
     }
 
     private void setRR(){
         while(true) {
-            if (GUI_setRR()==0)up();
-            else if(GUI_setRR()==1)down();
-            else break;
+            int check = GUI_btn();
+            display(5, 0, 0, ratio, 1, 1, 7);
+                if (check == 1) up();
+                else if (check == 2) down();
+                else if(check==4||check==6||check==5)
+                    break;
+            try {
+                Thread.sleep(1000);
+            }catch(InterruptedException e){}
         }
     }
 
@@ -58,4 +69,4 @@ public class RR extends GUI
             buzzer.start();
         }
     }
-}*/
+}

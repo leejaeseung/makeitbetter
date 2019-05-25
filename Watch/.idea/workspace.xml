@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="165ca673-3a1d-4e24-876b-ccff34d8bdcc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA/src/main/java/Function/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/src/main/java/Function/Dice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA/src/main/java/Function/RR.java" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/src/main/java/Function/RR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA/src/main/java/GUI/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/src/main/java/GUI/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA/src/main/java/Manage/Change_Mode.java" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/src/main/java/Manage/Change_Mode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMA/src/main/java/Manage/Select_Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/src/main/java/Manage/Select_Menu.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SMA/src/main/java/Function/Dice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="551">
+              <caret line="29" column="59" lean-forward="true" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#960#961#0" expanded="true" />
@@ -40,11 +46,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SMA/src/main/java/GUI/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="146" column="36" lean-forward="true" selection-start-line="146" selection-start-column="36" selection-end-line="146" selection-end-column="36" />
+            <state relative-caret-position="57">
+              <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="class#MyActionListener#0;class#GUI#0" />
                 <element signature="method#setButton#0;class#GUI#0" />
                 <element signature="method#setLayout#0;class#GUI#0" />
                 <element signature="method#setLabel#0;class#GUI#0" />
@@ -53,20 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SMA/src/main/java/GUI/TestMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SMA/src/main/java/Manage/Select_Menu.java">
+        <entry file="file://$PROJECT_DIR$/SMA/src/main/java/Function/RR.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="414">
+              <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,10 +71,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SMA/src/main/java/Manage/Select_Menu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+              <folding>
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+                <element signature="e#817#818#0" expanded="true" />
+                <element signature="e#849#850#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SMA/src/main/java/Manage/Change_Mode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+            <state relative-caret-position="319">
+              <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -96,12 +109,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SMA/src/main/java/Function/RR.java" />
         <option value="$PROJECT_DIR$/SMA/src/main/java/Function/Time.java" />
-        <option value="$PROJECT_DIR$/SMA/src/main/java/Manage/Change_Mode.java" />
         <option value="$PROJECT_DIR$/SMA/src/main/java/Function/Dice.java" />
+        <option value="$PROJECT_DIR$/SMA/src/main/java/Manage/Change_Mode.java" />
         <option value="$PROJECT_DIR$/SMA/src/main/java/Manage/Select_Menu.java" />
         <option value="$PROJECT_DIR$/SMA/src/main/java/GUI/GUI.java" />
+        <option value="$PROJECT_DIR$/SMA/src/main/java/Function/RR.java" />
       </list>
     </option>
   </component>
@@ -176,6 +189,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="GUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Watch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Watch" type="462c0819:PsiDirectoryNode" />
+              <item name="SMA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Manage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -278,12 +300,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558774480042</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="야호">
+      <created>1558775559655</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558775559655</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -393,10 +421,39 @@
     <entry file="file://$PROJECT_DIR$/SMA/src/main/main.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/SMA/src/main/java/GUI/TestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMA/src/main/java/Manage/Change_Mode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMA/src/main/java/Manage/Select_Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SMA/src/main/java/Function/Dice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        <state relative-caret-position="551">
+          <caret line="29" column="59" lean-forward="true" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#960#961#0" expanded="true" />
@@ -407,11 +464,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SMA/src/main/java/GUI/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="146" column="36" lean-forward="true" selection-start-line="146" selection-start-column="36" selection-end-line="146" selection-end-column="36" />
+        <state relative-caret-position="57">
+          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#MyActionListener#0;class#GUI#0" />
             <element signature="method#setButton#0;class#GUI#0" />
             <element signature="method#setLayout#0;class#GUI#0" />
             <element signature="method#setLabel#0;class#GUI#0" />
@@ -419,34 +475,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SMA/src/main/java/GUI/TestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SMA/src/main/java/Function/RR.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="60" column="3" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#1170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SMA/src/main/java/Manage/Change_Mode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SMA/src/main/java/Manage/Select_Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="414">
+          <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

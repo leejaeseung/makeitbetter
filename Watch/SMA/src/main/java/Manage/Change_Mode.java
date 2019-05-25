@@ -1,4 +1,4 @@
-/*package Manage;
+package Manage;
 
 import Function.*;
 
@@ -54,4 +54,3 @@ public class Change_Mode {
         }
     }
 }
-*/

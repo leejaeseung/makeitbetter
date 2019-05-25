@@ -1,24 +1,23 @@
 package Manage;
 import GUI.*;
-import Function.*;
 
 public class Select_Menu extends GUI {
-   // private Change_Mode change_mode;
+    private Change_Mode change_mode;
 
 
     public static void main(String[] args) {
-        //Select_Menu watch = new Select_Menu();
-        //watch.checkMenu(0); // 메뉴 4개를 고른다
+        Select_Menu watch = new Select_Menu();
+        watch.checkMenu(0); // 메뉴 4개를 고른다
 
     }
-    /*private Select_Menu(){
+    private Select_Menu(){
         change_mode = new Change_Mode();
     }
     private void checkMenu(int n) {
         int check,count=0;
         change_mode.changeSet();
         for(;count<4;) {
-            check = GUI_selectMenu(n);
+            check = GUI_btn();
             if (check == 0) {
                 change_mode.startMenu(n);
                 count++;
@@ -33,5 +32,5 @@ public class Select_Menu extends GUI {
     }
     private int preMenu(int n){
         return (n+5)%6;
-    }*/
+    }
 }

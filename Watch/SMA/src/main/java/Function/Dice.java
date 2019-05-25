@@ -17,10 +17,8 @@ public class Dice extends GUI{
     }
 
     public void run(){
-        System.out.println("dice run");
         while(true) {
             int check = GUI_btn();
-            System.out.println("dice run2");
             if (check == 5) setDice();
             else if (check == 3) rollDice();
             else break;
@@ -29,7 +27,6 @@ public class Dice extends GUI{
 
     public void setDice(){
         while(true) {
-            System.out.println("dice run3");
             if (GUI_btn()==1||GUI_btn()==2)changeDiceNum();
             else break;
         }

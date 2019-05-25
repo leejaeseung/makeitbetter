@@ -9,10 +9,10 @@ import javax.swing.*;
 
 public class GUI extends JFrame{
     private String [] md={"TIM","STW","ALM","TMR","DIC","RRT"};                   // md=모드이름, d3=요일
-    private String [] d3={"MON","TUS","WED","TUR","FRY","SAT","SUN","---"};
-    private int tm1=0,tm2=0,tm3=0,d1=1,d2=1;          // tm1=왼쪽 숫자,tm2=중간 숫자,tm3=오른쪽숫자,d1=월,d2=일
-    public int md_num=0;
-    private int d3_num=0;
+    private String [] d3={"MON","TUS","WED","TUR","FRY","SAT","SUN","SET","---"};
+    //private int tm1=0,tm2=0,tm3=0,d1=1,d2=1;          // tm1=왼쪽 숫자,tm2=중간 숫자,tm3=오른쪽숫자,d1=월,d2=일
+    //public int md_num=0;
+    //private int d3_num=0;
     public long btn_press=0,btn_release=0;
     public long btn_time=0;
 
@@ -68,7 +68,6 @@ public class GUI extends JFrame{
 
             if(b.getText().equals("UP")) {
                 btn_input=1;
-                System.out.println("UP");
             }
             if(b.getText().equals("DOWN")) {
                 btn_input=2;
@@ -143,10 +142,10 @@ public class GUI extends JFrame{
         this.day.setForeground(Color.black);
     }
 
-    public void display(){
+    public void display(int md_num,int tm1,int tm2,int tm3,int d1,int d2,int d3_num){
                 this.mode.setText("Mode : " + this.md[md_num]);
-                this.time.setText(this.tm1 + ":" + this.tm2 + ":" + this.tm3);
-                this.day.setText(this.d1 + "-" + this.d2 + "-" + this.d3[d3_num]);
+                this.time.setText(tm1 + ":" + tm2 + ":" + tm3);
+                this.day.setText(d1 + "-" + d2 + "-" + this.d3[d3_num]);
 
                 add(this.mode);
                 add(this.time);
