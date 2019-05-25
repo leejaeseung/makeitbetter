@@ -14,7 +14,7 @@ public class Dice {
     }
 
     public void run(){
-        for(;;) {
+        while(ture) {
             int check = GUI_dice();
             if (check == 0) setDice();
             else if (check == 1) rollDice();
