@@ -16,7 +16,8 @@ public class GUI extends JFrame{
     public long btn_press=0,btn_release=0;
     public long btn_time=0;
 
-    public int btn_input;
+    public int btn_input=0;
+    public int btn_temp;
 
     private JButton ok=new JButton("OK");
     private JButton menu=new JButton("MENU");
@@ -160,6 +161,27 @@ public class GUI extends JFrame{
     public void selectMenu(int menu){
         this.md_num=menu;
         getBtn();
+    }
+    public int GUI_dice(){
+        while(btn_input==0){
+            try{
+                Thread.sleep(1000);
+            }catch(Exception ex){}
+        }
+        btn_temp=btn_input;
+        btn_input=0;
+        return btn_temp;
+    }
+    public int GUI_setDice(int diceNum){
+        this.tm3=diceNum;
+        while(btn_input==0){
+            try{
+                Thread.sleep(1000);
+            }catch(Exception ex){}
+        }
+        btn_temp=btn_input;
+        btn_input=0;
+        return btn_temp;
     }
 }
 

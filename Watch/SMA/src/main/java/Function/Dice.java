@@ -1,7 +1,7 @@
 package Function;
 
 import System_Support.Random_Number_Generator;
-public class Dice {
+public class Dice implements GUI{
 
     private int diceNum;
     Random_Number_Generator random;
@@ -28,7 +28,6 @@ public class Dice {
             else break;
         }
     }
-
 
     public int changeDiceNum()
     {
