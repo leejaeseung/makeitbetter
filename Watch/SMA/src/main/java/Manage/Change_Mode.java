@@ -36,13 +36,13 @@ public class Change_Mode {
                 time.run();
             }
             else if(mode[i]==1){
-                stop_watch.run();
+               // stop_watch.run();
             }
             else if(mode[i]==2){
-                alarm_manager.run();
+               // alarm_manager.run();
             }
             else if(mode[i]==3){
-                timer.run();
+               // timer.run();
             }
             else if(mode[i]==4){
                 dice.run();

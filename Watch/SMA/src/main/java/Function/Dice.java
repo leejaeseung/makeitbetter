@@ -24,22 +24,23 @@ public class Dice extends GUI{
             if (check == 5) if(setDice()==1)return; // ok2초 누르면 다이스 세팅모드 진입
             else if (check == 3) rollDice(); //ok버튼 누르면 다이스 굴림
             else if (check == 4) break; // menu버튼 누르면 나오기
-            try{
+            try {
                 Thread.sleep(1000);
-            }catch (InterruptedException);
+            }catch(InterruptedException e){}
         }
     }
 
     public int setDice(){
         int check;
         while(true) {
-            while(check==0) {
-                super.display(0,0,0,diceNum,0,0,0);
-                check = super.GUI_btn();
-            }
+            super.display(0,0,0,diceNum,0,0,0);
+            check = super.GUI_btn();
             if (check==1||check==2)changeDiceNum(); // up이나 down버튼 누르면 다이스 개수 변경
             else if(check==4)return 1;
             else if(check==3)break;
+            try {
+                Thread.sleep(100);
+            }catch(InterruptedException e){}
         }
         return 0;
     }
