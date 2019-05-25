@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="165ca673-3a1d-4e24-876b-ccff34d8bdcc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SMA/src/production/Watch/production/Watch/production/Watch/production/Watch/production/Watch/main/main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SMA/src/production/Watch/production/Watch/production/Watch/production/Watch/production/Watch/production/Watch/main/main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMA/src/main/java/Function/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/src/main/java/Function/Dice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMA/src/main/java/Function/RR.java" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/src/main/java/Function/RR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMA/src/main/java/Function/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/src/main/java/Function/Time.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SMA/src/main/java/GUI/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/src/main/java/GUI/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMA/src/main/java/Manage/Change_Mode.java" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/src/main/java/Manage/Change_Mode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMA/src/main/java/Manage/Select_Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/src/main/java/Manage/Select_Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMA/src/production/Watch/Function/Dice.class" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/src/production/Watch/Function/Dice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMA/src/production/Watch/Function/Time.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMA/src/production/Watch/GUI/GUI$MyActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/src/production/Watch/GUI/GUI$MyActionListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMA/src/production/Watch/GUI/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/src/production/Watch/GUI/GUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMA/src/production/Watch/Manage/Select_Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/src/production/Watch/Manage/Select_Menu.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +47,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SMA/src/main/java/GUI/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
+            <state relative-caret-position="243">
               <caret line="149" column="27" lean-forward="true" selection-start-line="149" selection-start-column="27" selection-end-line="149" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -107,9 +95,9 @@
         <option value="$PROJECT_DIR$/SMA/src/main/java/Function/RR.java" />
         <option value="$PROJECT_DIR$/SMA/src/main/java/Function/Time.java" />
         <option value="$PROJECT_DIR$/SMA/src/main/java/Manage/Change_Mode.java" />
-        <option value="$PROJECT_DIR$/SMA/src/main/java/GUI/GUI.java" />
         <option value="$PROJECT_DIR$/SMA/src/main/java/Manage/Select_Menu.java" />
         <option value="$PROJECT_DIR$/SMA/src/main/java/Function/Dice.java" />
+        <option value="$PROJECT_DIR$/SMA/src/main/java/GUI/GUI.java" />
       </list>
     </option>
   </component>
@@ -171,7 +159,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SMA/src" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -239,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558769255009</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="최신">
+      <created>1558770266092</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558770266093</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -278,7 +273,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="GUI 다이스 추가" />
     <MESSAGE value="이대로 돌리쟝" />
-    <option name="LAST_COMMIT_MESSAGE" value="이대로 돌리쟝" />
+    <MESSAGE value="최신" />
+    <option name="LAST_COMMIT_MESSAGE" value="최신" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/SMA/src/main/java/Function/Dice_Game.java">
@@ -392,7 +388,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SMA/src/main/java/GUI/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
+        <state relative-caret-position="243">
           <caret line="149" column="27" lean-forward="true" selection-start-line="149" selection-start-column="27" selection-end-line="149" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -459,6 +455,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

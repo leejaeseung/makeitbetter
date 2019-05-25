@@ -156,27 +156,13 @@ public class GUI extends JFrame{
         //}
     }
 
-    public int GUI_dice(int randomNumber){
-        this.tm3=randomNumber;
+    public int GUI_btn(){
         while(btn_input==0){
             try{
                 Thread.sleep(1000);
             }catch(Exception ex){}
         }
-        btn_temp=btn_input;
-        btn_input=0;
-        return btn_temp;
-    }
-    public int GUI_setDice(int diceNum){
-        this.tm3=diceNum;
-        while(btn_input==0){
-            try{
-                Thread.sleep(1000);
-            }catch(Exception ex){}
-        }
-        btn_temp=btn_input;
-        btn_input=0;
-        return btn_temp;
+        return btn_input;
     }
 }
 
