@@ -1,4 +1,4 @@
-package Function;
+/*package Function;
 
 import GUI.GUI;
 import System_Support.Buzzer;
@@ -58,4 +58,4 @@ public class RR extends GUI
             buzzer.start();
         }
     }
-}
+}*/

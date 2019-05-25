@@ -67,6 +67,7 @@ public class GUI extends JFrame{
 
             if(b.getText().equals("UP")) {
                 btn_input=1;
+                System.out.println("UP");
             }
             if(b.getText().equals("DOWN")) {
                 btn_input=2;
@@ -140,7 +141,7 @@ public class GUI extends JFrame{
         this.day.setBounds(250,270,300,20);
         this.day.setForeground(Color.black);
 
-        while(true) {
+        //while(true) {
             this.mode.setText("Mode : " + this.md[md_num]);
             this.time.setText(this.tm1 + ":" + this.tm2 + ":" + this.tm3);
             this.day.setText(this.d1 + "-" + this.d2 + "-" + this.d3[d3_num]);
@@ -149,10 +150,10 @@ public class GUI extends JFrame{
             add(this.time);
             add(this.day);
 
-            try{
-                Thread.sleep(1000);
-            }catch(Exception ex){}
-        }
+          //  try{
+            //    Thread.sleep(1000);
+            //}catch(Exception ex){}
+        //}
     }
 
     public int GUI_dice(int randomNumber){

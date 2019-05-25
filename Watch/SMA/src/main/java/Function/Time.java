@@ -1,4 +1,4 @@
-package Function;
+/*package Function;
 import System_Support.*;
 import GUI.*;
 
@@ -28,4 +28,4 @@ public class Time extends  GUI{
     public void enterSetMode(){
 
     }
-}
+}*/
