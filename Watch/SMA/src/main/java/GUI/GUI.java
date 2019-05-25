@@ -9,7 +9,7 @@ import javax.swing.*;
 
 public class GUI extends JFrame{
     private String [] md={"TIM","STW","ALM","TMR","DIC","RRT"};                   // md=모드이름, d3=요일
-    private String [] d3={"MON","TUS","WED","TUR","FRY","SAT","SUN"};
+    private String [] d3={"MON","TUS","WED","TUR","FRY","SAT","SUN","---"};
     private int tm1=0,tm2=0,tm3=0,d1=1,d2=1;          // tm1=왼쪽 숫자,tm2=중간 숫자,tm3=오른쪽숫자,d1=월,d2=일
     public int md_num=0;
     private int d3_num=0;
@@ -17,7 +17,7 @@ public class GUI extends JFrame{
     public long btn_time=0;
 
     public int btn_input=0;
-    public int btn_temp;
+    public int btn_temp=0;
 
     private JButton ok=new JButton("OK");
     private JButton menu=new JButton("MENU");
@@ -33,6 +33,7 @@ public class GUI extends JFrame{
         setLayout();
         setButton();
         setLabel();
+
     }
     private class MyActionListener implements ActionListener, MouseListener {
 
@@ -140,28 +141,21 @@ public class GUI extends JFrame{
         this.day.setBackground(new Color(0,0,0,0));
         this.day.setBounds(250,270,300,20);
         this.day.setForeground(Color.black);
+    }
 
-        //while(true) {
-            this.mode.setText("Mode : " + this.md[md_num]);
-            this.time.setText(this.tm1 + ":" + this.tm2 + ":" + this.tm3);
-            this.day.setText(this.d1 + "-" + this.d2 + "-" + this.d3[d3_num]);
+    public void display(){
+                this.mode.setText("Mode : " + this.md[md_num]);
+                this.time.setText(this.tm1 + ":" + this.tm2 + ":" + this.tm3);
+                this.day.setText(this.d1 + "-" + this.d2 + "-" + this.d3[d3_num]);
 
-            add(this.mode);
-            add(this.time);
-            add(this.day);
-
-          //  try{
-            //    Thread.sleep(1000);
-            //}catch(Exception ex){}
-        //}
+                add(this.mode);
+                add(this.time);
+                add(this.day);
     }
 
     public int GUI_btn(){
-        while(btn_input==0){
-            try{
-                Thread.sleep(1000);
-            }catch(Exception ex){}
-        }
+            btn_temp=btn_input;
+            btn_input=0;
         return btn_input;
     }
 }

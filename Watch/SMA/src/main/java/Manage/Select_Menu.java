@@ -10,8 +10,6 @@ public class Select_Menu extends GUI {
         //Select_Menu watch = new Select_Menu();
         //watch.checkMenu(0); // 메뉴 4개를 고른다
 
-        Dice d=new Dice();
-        d.run();
     }
     /*private Select_Menu(){
         change_mode = new Change_Mode();
