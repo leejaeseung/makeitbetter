@@ -4,6 +4,7 @@ import System_Support.Random_Number_Generator;
 public class Dice implements GUI{
 
     private int diceNum;
+    private int randomNumber
     Random_Number_Generator random;
 
     public Dice()
@@ -11,11 +12,12 @@ public class Dice implements GUI{
         diceNum = 1;
         random = new Random_Number_Generator();
         random.setModeNum(6);
+        randomNumber=random.getRandom();
     }
 
     public void run(){
-        for(;;) {
-            int check = GUI_dice();
+        while(true) {
+            int check = GUI_dice(randomNumber);
             if (check == 0) setDice();
             else if (check == 1) rollDice();
             else break;
@@ -24,7 +26,7 @@ public class Dice implements GUI{
 
     public void setDice(){
         while(true) {
-            if (GUI_setDice()==0)changeDiceNum();
+            if (GUI_setDice(diceNum)==0)changeDiceNum();
             else break;
         }
     }
@@ -40,6 +42,6 @@ public class Dice implements GUI{
 
     public int rollDice()
     {
-        return random.getRandom();
+        randomnumber = random.getRandom();
     }
 }
