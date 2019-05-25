@@ -18,15 +18,15 @@ public class Dice implements GUI{
     public void run(){
         while(true) {
             int check = GUI_dice(randomNumber);
-            if (check == 0) setDice();
-            else if (check == 1) rollDice();
+            if (check == 5) setDice();
+            else if (check == 3) rollDice();
             else break;
         }
     }
 
     public void setDice(){
         while(true) {
-            if (GUI_setDice(diceNum)==0)changeDiceNum();
+            if (GUI_setDice(diceNum)==1||GUI_setDice(diceNum)==2)changeDiceNum();
             else break;
         }
     }

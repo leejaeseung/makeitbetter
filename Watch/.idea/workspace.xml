@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="165ca673-3a1d-4e24-876b-ccff34d8bdcc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Watch.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SMA/src/main/java/Function/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/src/main/java/Function/Dice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SMA/src/main/java/GUI/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/SMA/src/main/java/GUI/GUI.java" afterDir="false" />
     </list>
@@ -22,27 +19,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SMA/src/main/java/GUI/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="182" column="20" lean-forward="true" selection-start-line="182" selection-start-column="20" selection-end-line="182" selection-end-column="20" />
+            <state relative-caret-position="247">
+              <caret line="167" column="5" lean-forward="true" selection-start-line="167" selection-start-column="5" selection-end-line="167" selection-end-column="5" />
               <folding>
                 <element signature="method#setButton#0;class#GUI#0" />
                 <element signature="method#setLayout#0;class#GUI#0" />
+                <element signature="method#setLabel#0;class#GUI#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SMA/src/main/java/Function/Dice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="266">
+              <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
               <folding>
-                <element signature="e#854#855#0" expanded="true" />
-                <element signature="e#895#896#0" expanded="true" />
+                <element signature="e#960#961#0" expanded="true" />
+                <element signature="e#1009#1010#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,8 +78,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SMA/src/main/java/Function/Dice.java" />
         <option value="$PROJECT_DIR$/SMA/src/main/java/GUI/GUI.java" />
+        <option value="$PROJECT_DIR$/SMA/src/main/java/Function/Dice.java" />
       </list>
     </option>
   </component>
@@ -189,6 +187,14 @@
       <option name="presentableId" value="Default" />
       <updated>1558763709587</updated>
     </task>
+    <task id="LOCAL-00001" summary="GUI 다이스 추가">
+      <created>1558767074284</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558767074284</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -221,6 +227,10 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="GUI 다이스 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="GUI 다이스 추가" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/SMA/src/main/java/Function/Dice_Game.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -228,6 +238,9 @@
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMA/src/main/java/Function/Timer.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/SMA/src/main/java/Function/Alarm_Manager.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -239,30 +252,28 @@
     <entry file="file://$PROJECT_DIR$/SMA/src/main/java/Function/Stop_Watch.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SMA/src/main/java/Function/Timer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/SMA/src/main/java/Function/Time.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SMA/src/main/java/Function/Dice.java">
+    <entry file="file://$PROJECT_DIR$/SMA/src/main/java/GUI/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="247">
+          <caret line="167" column="5" lean-forward="true" selection-start-line="167" selection-start-column="5" selection-end-line="167" selection-end-column="5" />
           <folding>
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
+            <element signature="method#setButton#0;class#GUI#0" />
+            <element signature="method#setLayout#0;class#GUI#0" />
+            <element signature="method#setLabel#0;class#GUI#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SMA/src/main/java/GUI/GUI.java">
+    <entry file="file://$PROJECT_DIR$/SMA/src/main/java/Function/Dice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="182" column="20" lean-forward="true" selection-start-line="182" selection-start-column="20" selection-end-line="182" selection-end-column="20" />
+        <state relative-caret-position="266">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
           <folding>
-            <element signature="method#setButton#0;class#GUI#0" />
-            <element signature="method#setLayout#0;class#GUI#0" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
           </folding>
         </state>
       </provider>

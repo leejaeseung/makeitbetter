@@ -155,14 +155,8 @@ public class GUI extends JFrame{
         }
     }
 
-    public int getBtn(){
-        return btn_input;
-    }
-    public void selectMenu(int menu){
-        this.md_num=menu;
-        getBtn();
-    }
-    public int GUI_dice(){
+    public int GUI_dice(int randomNumber){
+        this.tm3=randomNumber;
         while(btn_input==0){
             try{
                 Thread.sleep(1000);
