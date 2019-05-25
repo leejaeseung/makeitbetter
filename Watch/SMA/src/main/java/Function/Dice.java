@@ -19,13 +19,14 @@ public class Dice extends GUI{
     public void run(){
         int check;
         while(true) {
-            while(check==0) {
-                super.display(0,0,0,randomNumber,0,0,0);
-                check = super.GUI_btn();
-            }
+            super.display(0,0,0,randomNumber,0,0,0);
+            check = super.GUI_btn();
             if (check == 5) if(setDice()==1)return; // ok2초 누르면 다이스 세팅모드 진입
             else if (check == 3) rollDice(); //ok버튼 누르면 다이스 굴림
             else if (check == 4) break; // menu버튼 누르면 나오기
+            try{
+                Thread.sleep(1000);
+            }catch (InterruptedException);
         }
     }
 
