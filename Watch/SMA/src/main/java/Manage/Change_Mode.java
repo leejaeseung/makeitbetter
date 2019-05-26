@@ -44,11 +44,11 @@ public class Change_Mode extends GUI {
                 // timer.run();
             }
             else if (mode == 4) {
-                //dice.run();
+                dice.run(input);
+                display(dice.getDis());
             }
             else if (mode == 5) {
                 rr.run(input);
-                display(5,0,0,rr.getRatio(),1,1,rr.getIsset());
             }
             else if (mode == 6){
                 select_mode.setMode();
